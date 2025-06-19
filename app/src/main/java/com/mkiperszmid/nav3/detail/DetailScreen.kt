@@ -16,7 +16,7 @@ fun DetailScreen(
     val state = viewModel.state
     Scaffold(modifier = Modifier.fillMaxSize()) {
         Box(modifier = Modifier.padding(it), contentAlignment = Alignment.Center) {
-            Text("Detalle de ${state.person.name} con edad de ${state.person.age}")
+            Text("Name ${state.person.name} Ahmad ${state.person.age}")
         }
     }
 }
